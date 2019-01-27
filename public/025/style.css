@@ -1,0 +1,6 @@
+.character {
+  position: absolute;
+  width: 64px;
+  height: 54px;
+  background-image: url('/assets/images/hey.png')
+}
