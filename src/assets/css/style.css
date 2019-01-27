@@ -18,6 +18,6 @@ li {
   list-style-type: none;
 }
 
-a:visited {
-  color: inherit;
+a, a:visited {
+  color: #74d7fd;
 }
