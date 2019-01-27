@@ -12,6 +12,7 @@ function getUl() {
   const ul = document.createElement('ul');
   addLink(ul, {num: '002', text: 'JavaScriptの書き方を知りたい'});
   addLink(ul, {num: '003', text: 'JavaScriptを別ファイルに書きたい'});
+  addLink(ul, {num: '023', text: 'ランダムな数を使いたい'});
   return ul;
 }
 
