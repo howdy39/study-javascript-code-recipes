@@ -13,3 +13,11 @@ body {
 .tip {
 	font-size: 1.4rem;
 }
+
+li {
+  list-style-type: none;
+}
+
+a:visited {
+  color: inherit;
+}

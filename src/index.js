@@ -1,17 +1,20 @@
 /* eslint-env browser */
 import './assets/css/style.css';
 
-const title = document.createElement('h1');
-title.textContent = 'Hello Poi!';
-title.className = 'title';
-
-const tip = document.createElement('div');
-tip.textContent = 'Edit src/index.js and save to reload.';
-tip.className = 'tip';
+const ul = document.createElement('ul');
+addLink(ul, {num: '002', text: 'JavaScriptの書き方を知りたい'});
 
 const app = document.getElementById('app');
 
 if (app) {
-  app.appendChild(title);
-  app.appendChild(tip);
+  app.appendChild(ul);
+}
+
+function addLink(ul, {num, text}) {
+  const li = document.createElement('li');
+  const link = document.createElement('a');
+  link.href = num;
+  link.textContent = `${num} ${text}`;
+  li.appendChild(link);
+  ul.appendChild(li);
 }
