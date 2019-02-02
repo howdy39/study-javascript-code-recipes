@@ -16,6 +16,7 @@ function getUl() {
   addLink(ul, {num: '025', text: '三角関数を使いたい'});
   addLink(ul, {num: '027', text: '文字列の長さを取得したい'});
   addLink(ul, {num: '035', text: '文字列を分割したい'});
+  addLink(ul, {num: '093', text: 'アナログ時計を表示したい'});
   return ul;
 }
 
